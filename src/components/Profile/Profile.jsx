@@ -1,16 +1,16 @@
-import styles from "./Profile.module.css";
+import s from "./Profile.module.css";
 
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
-    <div className={styles.profile}>
-      <div className={styles.avatar}>
+    <div className={s.profile}>
+      <div className={s.avatar}>
         <img src={image} alt={name} />
-        <p className={styles.title}>{name}</p>
-        <p className={styles.text}>@{tag}</p>
-        <p className={styles.text}>{location}</p>{" "}
+        <p className={s.title}>{name}</p>
+        <p className={s.text}>@{tag}</p>
+        <p className={s.text}>{location}</p>
       </div>
 
-      <ul className={styles.followers}>
+      <ul className={s.followers}>
         <li>
           <span>Followers</span>
           <span>{stats.followers}</span>
