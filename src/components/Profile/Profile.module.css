@@ -3,7 +3,8 @@
   border-radius: 12px;
   width: 700px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .avatar {
@@ -38,7 +39,7 @@
 .followers li {
   padding: 20px;
   text-align: center;
-  background-color: var(--gray-light-color);
+  background-color: var(--color-gray-light);
 }
 
 .followers li:first-child {

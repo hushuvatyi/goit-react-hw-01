@@ -1,0 +1,32 @@
+.table {
+  min-width: 700px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 40px auto;
+  font-size: x-large;
+}
+
+.thead {
+  color: var(--color-white);
+  background-color: var(--color-black-light);
+}
+
+.td {
+  border: 2px solid var(--color-black);
+  color: var(--color-gray-dark);
+  &:nth-child(2) {
+    text-transform: capitalize;
+  }
+}
+
+.th {
+  border: 2px solid var(--color-black);
+  color: var(--color-white);
+  font-weight: normal;
+}
+
+.tr {
+  &:nth-child(even) {
+    background-color: var(--color-gray-light);
+  }
+}

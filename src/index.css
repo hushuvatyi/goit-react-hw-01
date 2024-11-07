@@ -9,9 +9,6 @@ body {
   margin: 0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
-  min-height: 100vh;
-
   font-style: normal;
 }
 
